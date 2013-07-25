@@ -74,7 +74,8 @@ $ git checkout <branch name>
 # Merging
 Make sure you're on the branch that you want to merge INTO
 $ git merge <branch to merge from>
-- But if there's a conflict we have to use a resolve it!
+- But if there's a conflict we have to resolve it!
 - This can be done manually with a text editor
 - or with a merge tool
+$ git mergetool -t p4merge
 - or abort the merge with $ git merge --abort
